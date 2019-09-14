@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  min-height: 40vh;
+  background-image: url('./images/jumbotron_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0;
+}
+
+.jumbotron .lead {
+  max-width: 400px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.navbar-brand {
+  padding: 20px 0;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:active {
+  color: #343a40;
+}
+
+.logo--red {
+  color: #E51B29;
+}
+
+.logo--blue {
+  color: #0076B2;
+}
+
+.logo--green {
+  color: #24A23F;
+}
