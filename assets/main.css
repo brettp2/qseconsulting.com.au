@@ -13,6 +13,7 @@ body {
   padding: 80px 0;
 }
 
+
 @media (max-width: 575px) {
   #jumboHeading {
     font-size: 2.6rem;
@@ -20,7 +21,11 @@ body {
 }
 
 .jumbotron .lead {
-  max-width: 400px;
+  max-width: 420px;
+}
+
+.jumbotron strong {
+  font-weight: bold;
 }
 
 section {
@@ -47,4 +52,35 @@ section {
 
 .logo--green {
   color: #24A23F;
+}
+
+.contactDetails tr > td:first-child {
+  padding-left: 0;
+}
+
+.contactDetails tr > td:last-child {
+  padding-right: 0;
+}
+
+#services .card {
+  border-radius: 0;
+  border-color: #eee;
+  border-bottom: 2px solid #0076B2;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: #0076B2;
+}
+
+.footer {
+  margin-top: 40px;
+  background: #343a40;
+  padding: 60px 0;
+}
+
+.footer p {
+  margin: 3px 0;
 }
