@@ -36,12 +36,6 @@ section {
   padding: 20px 0;
 }
 
-.navbar-brand,
-.navbar-brand:hover,
-.navbar-brand:active {
-  color: #343a40;
-}
-
 .logo--red {
   color: #E51B29;
 }
